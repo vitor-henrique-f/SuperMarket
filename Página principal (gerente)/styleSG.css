@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    overflow: hidden;
+    background-color: #2c2c2c;
+}
+
+.box {
+    width: 300px;
+    height: 768px;
+    position: relative;
+    right: 0.1rem;
+    background-color: #000316;
+    border-right: solid 1px #ffffff;
+}
+
+#logo {
+    color: white;
+    font-size: 2.5rem;
+    padding-left: 5.6rem;
+    padding-top: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.719);
+    transition: 0.3s;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.menu {
+    font-size: 1.5rem;
+}
+
+#linkE {
+    position: relative;
+    left: 6.5rem;
+    top: 8rem;
+}
+
+#linkF {
+    position: relative;
+    left: 5.5rem;
+    top: 12rem;
+}
+
+.bCategoria {
+    position: relative;
+    bottom: 6rem;
+    left: 79rem;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 25px;
+}
+
+#linha {
+    position: relative;
+    bottom: 23.5rem;
+    left: 24rem;
+    border: none;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+}
